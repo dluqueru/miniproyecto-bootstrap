@@ -1,0 +1,255 @@
+body {
+    background-color: #F5F5F5;
+}
+
+#navegador {
+    background-color: #97c11e;
+}
+
+.h2 {
+    color: #312B33;
+}
+
+a{
+    text-decoration: none;
+    color: #F5F5F5;
+    transition: all 0.3s ease;
+    padding: 0.3%;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: #97c11e;
+    text-decoration: none;
+    color: #F5F5F5;
+    /* transform: scale(1.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); */
+}
+
+ul{
+    list-style: none;
+}
+
+.pie-pagina{
+    background-color: #312B33;
+    text-align: center; 
+    padding: 20px;
+    width: 100%;
+}
+
+.pie-pagina p{
+    background-color: #312B33;
+}
+
+.social{
+    background-color:#312B33;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+
+.formulario-registro {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 40vw;
+    margin-bottom: 20vh;
+}
+
+h2 {
+    text-align: center;
+    color: #4E3D42;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 20%;
+    padding: 12px;
+    background-color: #97c11e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#galeria .imagen {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#galeria img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+#galeria img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.contact {
+    float: left;
+    overflow: hidden;
+    margin-left: 10vw;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.image-container .text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+}
+
+.carousel-item {
+    max-height: 450px;
+}
+
+.img-fluid {
+    max-height: 450px;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.categories:hover {
+    background-color: #97c11e;
+    color: #F5F5F5;
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 25px;
+}
+
+.cta1 {
+    background-color: #97c11e;
+    width: 60vw;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta2 {
+    background-color: #97c11e;
+    width: 85vw;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta-text1 {
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.cta-text2 {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.cta1:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.cta2:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #312B33;
+}
+
+.btn {
+    color: #F5F5F5;
+    background-color: #97c11e;
+}
+
+.btn:hover {
+    color: #F5F5F5;
+    background-color: #ff8000;
+}

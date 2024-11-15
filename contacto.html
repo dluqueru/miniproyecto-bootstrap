@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./custom.css" />
+</head>
+<body>
+  <nav id="navegador" class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="./index.html">
+          <img src="./img/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+          Escalapop
+        </a>
+      </div>
+      <button class="navbar-toggler m-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item mt-2">
+            <a class="nav-link active text-white" aria-current="page" href="./contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item mt-2">
+            <a class="nav-link text-white" href="./registro.html">Registro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./registro.html">
+              <svg class="nav-link text-white" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <h2 class="h2 mt-2">Nuestra Ubicación</h2>
+    <section id="main" class="container mt-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.386973600894!2d-5.874271151838397!3d37.545945666356054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd125ce603bed70f%3A0xcd0e9d8b39d715f0!2sInstituto%20de%20Educaci%C3%B3n%20Secundaria%20Jacarand%C3%A1!5e0!3m2!1ses!2ses!4v1727074252889!5m2!1ses!2ses" width="100%" height="450" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <h2 class="text-center mt-5">Nuestro Equipo</h2>
+    <div class="container mt-4">
+        <table class="table table-striped table-responsive">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Rol</th>
+                    <th>Contacto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Juan Pérez</td>
+                    <td>Guía de Montaña</td>
+                    <td>juan@example.com</td>
+                </tr>
+                <tr>
+                    <td>Ana Martínez</td>
+                    <td>Coordinadora</td>
+                    <td>ana@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2 class="text-center mt-5">Preguntas Frecuentes</h2>
+    <div class="container">
+        <ul class="nav nav-tabs" id="faqTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="faq1-tab" data-toggle="tab" href="#faq1" role="tab">¿Cómo unirse?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="faq2-tab" data-toggle="tab" href="#faq2" role="tab">¿Dónde estamos ubicados?</a>
+            </li>
+        </ul>
+    </div>
+    <div class="tab-content mt-3">
+        <div class="tab-pane fade show active" id="faq1" role="tabpanel">
+            <p class="text-center">Para unirte, simplemente completa el formulario de registro en la sección correspondiente.</p>
+        </div>
+        <div class="tab-pane fade" id="faq2" role="tabpanel">
+            <p class="text-center">Nuestra sede está en el Instituto de Educación Secundaria Jacarandá, en Sevilla.</p>
+        </div>
+    </div>
+    
+    <footer class="pie-pagina mt-5">
+      <p class="social mb-4">&copy; 2024 Escalapop. Todos los derechos reservados.</p>
+      <a class="social" href="https://www.twitter.com" target="_blank">Twitter</a>
+      <a class="social" href="https://www.facebook.com" target="_blank"
+        >Facebook</a
+      >
+      <a class="social" href="https://www.instagram.com" target="_blank"
+        >Instagram</a
+      >
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
